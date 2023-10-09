@@ -23,6 +23,8 @@ BOARD_WHITELIST += adafruit-clue \
                    remote-reva \
                    remote-revb \
                    pba-d-01-kw2x \
+                   rak3172 \
+                   lora-e5-dev \
                    #
 
 ifeq ($(BOARD), native)

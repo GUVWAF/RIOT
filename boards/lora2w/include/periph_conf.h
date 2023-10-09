@@ -30,7 +30,7 @@
 #define CONFIG_BOARD_HAS_HSE            1
 #endif
 
-#define CLOCK_HSE                       MHZ(32)
+#define CONFIG_CLOCK_HSE                MHZ(32)
 //#undef RCC_CR_HSEBYPPWR
 #include "periph_cpu.h"
 #include "clk_conf.h"
